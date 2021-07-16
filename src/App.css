@@ -27,7 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+#btn{
+  font-size: 34px;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+#btn:hover{
+  border-radius: 5px;
+  border : 2px solid white;
+  font-style:bold;
+  background-color: black;
+  color: azure;
 
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
