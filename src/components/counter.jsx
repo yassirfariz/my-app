@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
+import '../style/main.css'
+import '../js/counter'
 class Counter extends Component {
   state = {}
   render() { 
     return (
-    <div>
-      <h1><strong>be the best</strong></h1>
-      <button disabled="disabled"></button>
-    </div>
+    <>
+      <body className="btn-holder">
+        <h1 id="counter" className="counter">0</h1>
+        <span>  
+          <button style={{fontSize:"42px"}} className="btn reset">reset</button>
+          <button style={{fontSize:"42px"}} className="btn increase">+</button>
+          <button style={{fontSize:"42px"}} className="btn decrease">-</button>
+        </span>
+      </body> 
+    </>
     ) ;
   }
 }
